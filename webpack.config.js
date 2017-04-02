@@ -43,7 +43,7 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     query: {
-                        presets: ['react', 'latest'],
+                        presets: ['react'],
                         plugins: ['transform-class-properties', 'transform-flow-strip-types']
                     }
                 },

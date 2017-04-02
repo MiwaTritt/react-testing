@@ -1,5 +1,4 @@
 dist
 node_modules
-typings
 *.log
-reports
+.DS_Store

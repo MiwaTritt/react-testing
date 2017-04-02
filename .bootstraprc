@@ -1,11 +1,10 @@
-loglevel: disabled
+loglevel: debug
 bootstrapVersion: 4
 useFlexbox: true
 styleLoaders:
-  - style
-  - css
-  - postcss
-  - sass
+  - style-loader
+  - sass-loader
+  - file-loader
 extractStyles: false
 styles: true
 scripts: false
