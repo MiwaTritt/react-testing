@@ -11,11 +11,11 @@ injectTapEventPlugin();
 
 import 'bootstrap/dist/css/bootstrap.css';
 
-import AppRoutes from './components/app-routes';
+import AppRouter from './components/app-router';
 
 window.onload = () => {
     ReactDOM.render(
     <MuiThemeProvider>
-        <AppRoutes/>
+        <AppRouter/>
     </MuiThemeProvider>, document.querySelector('main'));
 };

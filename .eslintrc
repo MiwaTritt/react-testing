@@ -20,6 +20,7 @@
 	},
 	"parser": "babel-eslint",
 	"rules": {
+		"prop-types": [0, {}],
 		"indent": ["error", 4, { "SwitchCase": 1 }],
 		"quotes": ["error", "single"],
 		"semi": ["error", "always"],
