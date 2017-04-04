@@ -27,7 +27,7 @@ module.exports = function (config) {
             'karma-sourcemap-loader'
         ],
 
-        reporters: ['spec'],
+        reporters: ['progress', 'junit', 'coverage'],
         port: 9876,
         colors: true,
         logLevel: config.LOG_INFO,
