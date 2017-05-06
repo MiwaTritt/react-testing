@@ -106,7 +106,7 @@ module.exports = {
     // this specific setting value is required to set breakpoints in the TypeScript
     // in the web browser for development
     // other source map settings do not allow debugging in browser and vscode
-    devtool: 'source-map',
+    devtool: 'eval-source-map',
 
     externals: {
         'cheerio': 'window',
